@@ -3,11 +3,11 @@ import random
 
 # Replace with your bot token
 
-BOT_TOKEN = ""
+BOT_TOKEN = "YOUR_BOT_TOKEN"
 
 # Replace with your MD's name
 
-MD_NAME = "kumarvel"
+MD_NAME = "YOUR_NAME"
 
 # Questions and Answers
 QUESTIONS = [
@@ -22,7 +22,7 @@ FUNNY_QUOTES = [
     "Hmm... not quite! I believe in you, try again!"
 ]
 
-bot = telebot.TeleBot("")
+bot = telebot.TeleBot("YOUR_BOT_TOKEN")
 current_question = {}
 
 @bot.message_handler(commands=['start'])
