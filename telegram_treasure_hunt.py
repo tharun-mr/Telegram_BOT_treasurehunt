@@ -27,7 +27,7 @@ current_question = {}
 
 @bot.message_handler(commands=['start'])
 def start(message):
-    bot.send_message(message.chat.id, f"Happy Birthday {MD_NAME}! 🎉🎂 Ready to start your treasure hunt? Type /hunt to begin!")
+    bot.send_message(message.chat.id, f"Happy Birthday {Your_Name}! 🎉🎂 Ready to start your treasure hunt? Type /hunt to begin!")
 
 @bot.message_handler(commands=['hunt'])
 def hunt(message):
